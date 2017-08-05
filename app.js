@@ -11,3 +11,9 @@ var myPicture = vRViewPlayer ('#skull-tattoo', {
      distance: 1
    });
  });
+myPicture.on('click', function(event) {
+  console.log ('register all click events');
+  if (event.id=='creating-hotspot-1') {
+    alert('i bEen clILed!');
+  }
+});

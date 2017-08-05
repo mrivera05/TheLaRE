@@ -19,9 +19,9 @@ myPicture.on('click', function(event) {
 });
 myPicture.on('ready', function(event) {
   myPicture.addHotspot('creating-hotspot-2', {
-    pitch: 10,
+    pitch: 5,
     yaw: 0,
-    radius: 0.10,
-    distance: 5
+    radius: 10.0,
+    distance: 1
   });
 });

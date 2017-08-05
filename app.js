@@ -21,7 +21,7 @@ myPicture.on('ready', function(event) {
   myPicture.addHotspot('creating-hotspot-2', {
     pitch: 5,
     yaw: 0,
-    radius: 10.0,
+    radius: 0.10,
     distance: 10
   });
 });

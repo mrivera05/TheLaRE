@@ -22,6 +22,6 @@ myPicture.on('ready', function(event) {
     pitch: 5,
     yaw: 0,
     radius: 10.0,
-    distance: 1
+    distance: 10
   });
 });

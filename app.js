@@ -11,26 +11,26 @@ var myPicture = vRViewPlayer ('#skull-tattoo', {
      distance: 1
    });
    myPicture.addHotspot('creating-hotspot-2', {
-     pitch: 10,
+     pitch: 100,
      yaw: 0,
      radius: 0.10,
      distance: 1
    });
    myPicture.addHotspot('creating-hotspot-3', {
      pitch: 0,
-     yaw: 10,
+     yaw: 100,
      radius: 0.10,
      distance: 1
    });
    myPicture.addHotspot('creating-hotspot-4', {
-     pitch: 5,
-     yaw: 15,
+     pitch: 50,
+     yaw: 150,
      radius: 0.10,
      distance: 1
    });
    myPicture.addHotspot('creating-hotspot-5', {
-     pitch: 5,
-     yaw: 10,
+     pitch: 50,
+     yaw: 100,
      radius: 0.10,
      distance: 1
    });

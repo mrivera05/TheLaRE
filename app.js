@@ -63,7 +63,7 @@ myPicture.on('click', function(event){
   if(event.id == 'creating-hotspot-3'){
     myPicture.setContent({
       image: 'BALCONY.jpg',
-      is_stereo:false
+      is_stereo:true
     });
   }
 });

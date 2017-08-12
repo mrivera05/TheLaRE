@@ -73,6 +73,6 @@ myPicture.on('click', function(event){
       myPicture.setContent({
         image: 'KELLY.jpg',
         is_stereo:false
-      }
+      
     });
   });

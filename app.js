@@ -60,10 +60,10 @@ myPicture.on('click', function(event) {
 myPicture.on('click', function(event){
   console.log('regiser all clik events');
 
-  if(event.id == 'creating-hotsopt-3'){
+  if(event.id == 'creating-hotspot-3'){
     myPicture.setContent({
       image: 'BALCONY.jpg',
-      is_stereo:true
+      is_stereo:false
     });
   }
 });

@@ -53,9 +53,10 @@ myPicture.on('click', function(event) {
     alert('clicked Hotspot4!');
   }
   console.log ('register all click events');
-  alert('clicked Hotspot5!');
   if (event.id == 'creating-hotspot-5') {
-  }
+  }alert('clicked Hotspot5!');
+
+
 });
 myPicture.on('click', function(event){
   console.log('regiser all clik events');

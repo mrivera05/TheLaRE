@@ -74,4 +74,4 @@ myPicture.on('click', function(event){
         is_stereo:false
       });
   }
-});
+);

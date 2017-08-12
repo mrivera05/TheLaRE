@@ -50,11 +50,11 @@ myPicture.on('click', function(event) {
   }
   console.log ('register all click events');
   if (event.id == 'creating-hotspot-4') {
-    alert('hotspot 4!');
+    alert('Bathroom break');
   }
   console.log ('register all click events');
   if (event.id == 'creating-hotspot-5') {
-    alert('clicked Hotspot5!');
+    alert('Math deparment this way');
   }
 
 

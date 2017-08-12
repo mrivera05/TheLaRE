@@ -38,7 +38,7 @@ var myPicture = vRViewPlayer ('#skull-tattoo', {
 myPicture.on('click', function(event) {
   console.log ('register all click events');
   if (event.id == 'creating-hotspot-1') {
-    alert('clicked Hotspot1!');
+    alert('Coffee break!');
   }
   console.log ('register all click events');
   if (event.id == 'creating-hotspot-2') {
@@ -68,5 +68,10 @@ myPicture.on('click', function(event){
       image: 'BALCONY.jpg',
       is_stereo:false
     });
+    if(event.id == 'creating-hotspot-1'){
+      myPicture.setContent({
+        image: 'KELLY.jpg',
+        is_stereo:false
+      });
   }
 });

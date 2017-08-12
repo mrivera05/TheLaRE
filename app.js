@@ -68,10 +68,11 @@ myPicture.on('click', function(event){
       image: 'BALCONY.jpg',
       is_stereo:false
     });
+  }
     if(event.id == 'creating-hotspot-1'){
       myPicture.setContent({
         image: 'KELLY.jpg',
         is_stereo:false
-      });
+      }
+    });
   }
-;

@@ -11,7 +11,7 @@ var myPicture = vRViewPlayer ('#skull-tattoo', {
      distance: 1
    });
    myPicture.addHotspot('creating-hotspot-2', {
-     pitch: 180,
+     pitch: 150,
      yaw: 0,
      radius: 0.10,
      distance: 1
@@ -42,7 +42,7 @@ myPicture.on('click', function(event) {
   }
   console.log ('register all click events');
   if (event.id == 'creating-hotspot-2') {
-    alert('clicked Hotspot2!');
+    alert('Work this way');
   }
   console.log ('register all click events');
   if (event.id == 'creating-hotspot-3') {
@@ -50,7 +50,7 @@ myPicture.on('click', function(event) {
   }
   console.log ('register all click events');
   if (event.id == 'creating-hotspot-4') {
-    alert('Work is this way!');
+    alert('hotspot 4!');
   }
   console.log ('register all click events');
   if (event.id == 'creating-hotspot-5') {

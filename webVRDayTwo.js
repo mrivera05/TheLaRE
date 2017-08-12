@@ -1,5 +1,5 @@
 var vrHomePage = vRViewPlayer('#vr-homepage', {
-    image: 'mei.jpg',
+    image: 'RLC.jpg',
     is_stereo: false,
     is_autopan_off: true,
 });

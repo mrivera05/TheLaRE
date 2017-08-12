@@ -1,5 +1,5 @@
 var myPicture = vRViewPlayer ('#skull-tattoo', {
-  image: 'picture1.jpg',
+  image: 'RLC.jpg',
   is_stereo : false
 });
  window.addEventListener('load',myPicture);

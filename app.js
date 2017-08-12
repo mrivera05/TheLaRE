@@ -56,7 +56,7 @@ myPicture.on('click', function(event) {
   if (event.id == 'creating-hotspot-5') {
     alert('clicked Hotspot5!');
   }
-}
+
 
 
 });

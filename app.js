@@ -57,3 +57,13 @@ myPicture.on('click', function(event) {
   if (event.id == 'creating-hotspot-5') {
   }
 });
+myPicture.on('click', function(event){
+  console.log('regiser all clik events');
+
+  if(event.id == 'creating-hotsopt-3'){
+    myPicture.setContent({
+      image: 'BALCONY.jpg',
+      is_stereo:true
+    });
+  }
+});

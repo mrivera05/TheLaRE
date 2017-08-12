@@ -44,10 +44,10 @@ myPicture.on('click', function(event) {
   if (event.id == 'creating-hotspot-2') {
     alert('clicked Hotspot2!');
   }
-  console.log ('register all click events');
-  if (event.id == 'creating-hotspot-3') {
-    alert('clicked Hotspot3!');
-  }
+  //console.log ('register all click events');
+  //if (event.id == 'creating-hotspot-3') {
+    //alert('clicked Hotspot3!');
+//  }
   console.log ('register all click events');
   if (event.id == 'creating-hotspot-4') {
     alert('clicked Hotspot4!');
